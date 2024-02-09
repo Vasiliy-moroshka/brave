@@ -37,3 +37,25 @@
 // {
 //     Console.WriteLine("Введены координаты четвёртой четверти");
 // }
+
+// Задача 3: Напишите программу, которая 
+// принимает на вход целое число из отрезка 
+// [10, 99] и показывает наибольшую цифру числа.
+
+// int number = 983;
+// if(number > 9 && number < 100)
+// {
+//     int firstDigit = number / 10;
+//     int secondDigit = number % 10;
+//     if(secondDigit > firstDigit)
+//     {
+//         Console.WriteLine($"В числе {number} бОльшая вторая цифра: {secondDigit}");
+//     }
+//     if(firstDigit > secondDigit)
+//     {
+//         Console.WriteLine($"В числе {number} бОльшая первая цифра: {firstDigit}");
+//     }
+// }
+// else{
+//     Console.WriteLine("Число не двухзначное");
+// }
