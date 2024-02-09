@@ -22,10 +22,34 @@
 // 487 => 8^7 = 2 097 152
 // 254 => 5^4 = 625
 
-int number = 947;
-int secondDigit = number / 10 % 10; // 947 / 10 % 10 = 94 % 10 = 4
-int thirdDigit = number % 10; // 947 % 10 = 7
-// Math.Pow(5, 2) = 5*5 = 25
-int result = (int)Math.Pow(secondDigit, thirdDigit);
-// результат переводится в (int)
-Console.WriteLine($"{secondDigit} ^ {thirdDigit} = {result}");
+// int number = 947;
+// int secondDigit = number / 10 % 10; // 947 / 10 % 10 = 94 % 10 = 4
+// int thirdDigit = number % 10; // 947 % 10 = 7
+// // Math.Pow(5, 2) = 5*5 = 25
+// int result = (int)Math.Pow(secondDigit, thirdDigit);
+// // результат переводится в (int)
+// Console.WriteLine($"{secondDigit} ^ {thirdDigit} = {result}");
+
+
+
+// Напишите программу, которая выводит
+// третью цифру с конца заданного числа 
+// или сообщает, что третьей цифры нет.
+// Примеры
+// 456 => 4
+// 7812 => 8
+// 91 => третьей цифры нет
+
+
+// int number = 92;
+// if(number >= 100)
+// {
+//     int thirdDigitFromEnd = number / 100 % 10;
+//     Console.WriteLine($"Третья цифра от {number} с конца: {thirdDigitFromEnd}");
+// } 
+// else // в числе нет третьей цифры
+// {
+//     Console.WriteLine("Третьей цифры нет");
+// }
+
+
