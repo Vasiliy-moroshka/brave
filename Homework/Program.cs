@@ -60,4 +60,34 @@
 //     Console.WriteLine("Число не двухзначное");
 // }
 
+// Задача 4: Напишите программу, 
+// которая на вход принимает натуральное 
+// число N, а на выходе показывает его 
+// цифры через запятую.
+
+int number = 4345;
+
+if (number > 1000)
+{
+    int firstDigit = number / 1000;
+    int secondDigit = number / 100 % 10;
+    int thirdDigit = number / 10 % 10;
+    int fourthDigit = number % 10;
+    Console.WriteLine($"{firstDigit},{secondDigit},{thirdDigit},{fourthDigit}");
+}
+if (number > 100 && number > 10 && number < 1000)
+{
+    int firstDigit = number / 100 % 10;
+    int secondDigit = number / 10 % 10;
+    int thirdDigit = number % 10;
+    Console.WriteLine($"{firstDigit},{secondDigit},{thirdDigit}");
+}
+if (number > 10 && number < 100)
+{
+    int firstDigit = number / 10 % 10;
+    int secondDigit = number % 10;
+    Console.WriteLine($"{firstDigit},{secondDigit}");
+}
+
+
 

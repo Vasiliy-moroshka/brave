@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Geekbrains\\C#\\sem02\\Homework\\homework.csproj": {}
+    "C:\\Geekbrains\\C#\\sem02\\homework\\homework.csproj": {}
   },
   "projects": {
-    "C:\\Geekbrains\\C#\\sem02\\Homework\\homework.csproj": {
+    "C:\\Geekbrains\\C#\\sem02\\homework\\homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Geekbrains\\C#\\sem02\\Homework\\homework.csproj",
+        "projectUniqueName": "C:\\Geekbrains\\C#\\sem02\\homework\\homework.csproj",
         "projectName": "homework",
-        "projectPath": "C:\\Geekbrains\\C#\\sem02\\Homework\\homework.csproj",
+        "projectPath": "C:\\Geekbrains\\C#\\sem02\\homework\\homework.csproj",
         "packagesPath": "C:\\Users\\бонсай\\.nuget\\packages\\",
-        "outputPath": "C:\\Geekbrains\\C#\\sem02\\Homework\\obj\\",
+        "outputPath": "C:\\Geekbrains\\C#\\sem02\\homework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\бонсай\\AppData\\Roaming\\NuGet\\NuGet.Config"
