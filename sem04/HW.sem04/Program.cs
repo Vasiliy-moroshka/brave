@@ -17,14 +17,14 @@
 //     if(int.TryParse(text, out number)) // true, строка состоит только из чисел
 //     {
 //         int sum = 0;
-//         while(number > 0) // Вычисление суммы цифр числа
+//         while(number > 0)
 //         {
-//         sum += number % 10; // Добавление последней цифры к сумме
-//         number /= 10; // Удаление последней цифры из числа
+//         sum += number % 10;
+//         number /= 10;
 //         }
-//         if (sum % 2 == 0) // Проверка, является ли сумма цифр четной
+//         if (sum % 2 == 0) 
 //         {
-//         Console.WriteLine("[STOP]");
+//         Console.WriteLine("Программа закончена");
 //         break;
 //         }       
 //     }
@@ -64,3 +64,52 @@
 // int[] res = CreateArray(N); // Создали массив на N элементов
 // Console.WriteLine($"Массив: [ {string.Join("; ", res)}]");
 // Console.WriteLine($"Результат: {countEvenNumbers(res)}");
+
+
+// Задача 3: Напишите программу, которая 
+// перевернёт одномерный массив (первый элемент 
+// станет последним, второй – предпоследним и т.д.)
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Исходный массив
+        int[] array = { 1, 2, 3, 4, 5 };
+
+        Console.WriteLine("Исходный массив:");
+        PrintArray(array);
+
+        // Переворачиваем массив
+        ReverseArray(array);
+
+        Console.WriteLine("\nПеревернутый массив:");
+        PrintArray(array);
+    }
+
+    // Метод для переворачивания массива
+    static void ReverseArray(int[] arr)
+    {
+        int length = arr.Length;
+        for (int i = 0; i < length / 2; i++)
+        {
+            int temp = arr[i];
+            arr[i] = arr[length - i - 1];
+            arr[length - i - 1] = temp;
+        }
+    }
+
+    // Метод для печати массива
+    static void PrintArray(int[] arr)
+    {
+        foreach (var item in arr)
+        {
+            Console.Write(item + " ");
+        }
+    }
+}
