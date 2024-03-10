@@ -1,0 +1,15 @@
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\bin\Debug\net8.0\HW.sem04.exe
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\bin\Debug\net8.0\HW.sem04.deps.json
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\bin\Debug\net8.0\HW.sem04.runtimeconfig.json
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\bin\Debug\net8.0\HW.sem04.dll
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\bin\Debug\net8.0\HW.sem04.pdb
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.AssemblyInfoInputs.cache
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.AssemblyInfo.cs
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.csproj.CoreCompileInputs.cache
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.sourcelink.json
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.dll
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\refint\HW.sem04.dll
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.pdb
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\HW.sem04.genruntimeconfig.cache
+C:\Geekbrains\C#\sem02\sem04\HW.sem04\obj\Debug\net8.0\ref\HW.sem04.dll
